@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: #ffffff;
 background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 
@@ -11,23 +11,29 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 
 
 .container{
-    height: 100vh;
-    width: 150vh;
+    /* height: 100vh;
+    width: 150vh; */
     /* border: 2px solid gray; */
     margin: 50px auto;
     display:grid;
     grid-template-columns: 2fr 2fr 2fr;
     gap: 15px 15px;
+    padding: 50px;
 
 }
 
 .box{
-    height:310px;
-    width: 350 px ;
-    /* border: 2px solid white; */
+    /* height:310px;
+    width: 350 px ; */
+    border: 2px solid white;
     border-radius: 8px;
     background-color: white;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
 .box-1{
     height:50px;
@@ -43,6 +49,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
     font-size: 20px;
     text-align: center;
     padding: 8px;
+    font-weight: bold;
 }
 .lorem{
     font-size:20px;
@@ -62,6 +69,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 }
 
 .box:hover{
-    transform:scale(1.08)
-}
+    transform:scale(1.08);
+} 
+
 

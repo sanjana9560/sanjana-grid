@@ -1,0 +1,44 @@
+/* @media(min-width: 576px) and (max-width: 900px){
+  html{
+    font-size: 30px;
+  }
+  .container{
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+  }
+  @media(min-width: 320px;) and (max-width: 575.98px){
+    html{
+      font-size: 9px;
+    }
+  }
+  .container{
+    grid-template-columns: 1fr ;
+    padding: 30px;
+  }
+  .box{
+    padding: 12px 6px;
+  }
+  @media(max-width: 319.98px){
+    html{
+      font-size: 8.5;
+    }
+  }
+  .container{
+    grid-template-columns: 1fr ;
+    padding: 30px;
+  }
+} */
+
+@media only screen and (max-width:900px){
+  .container{
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+  }
+}
+@media only screen and (max-width:500px){
+  .container{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  
+}
